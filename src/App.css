@@ -131,6 +131,11 @@ button:active {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
 }
 
 .books-grid li {
@@ -184,8 +189,6 @@ button:active {
   cursor: pointer;
 }
 
-/* book cover */
-
 .book-cover {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   background: #eee;
@@ -195,4 +198,9 @@ button:active {
   padding: 20px 10px 0;
   text-align: center;
   font-size: 0.8em;
+}
+.cover {
+    
+    width: 128px;
+    height: 193px;
 }
